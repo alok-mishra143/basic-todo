@@ -1,0 +1,39 @@
+/* Create Todo Styles */
+
+.create-todo-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #33383b; /* Dark mode card background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.create-todo-container input[type="text"] {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #44484c; /* Dark mode input background */
+  border: none;
+  border-radius: 5px;
+  color: #ffffff; /* Text color */
+}
+
+.create-todo-container input[type="text"]::placeholder {
+  color: #66696c; /* Placeholder text color */
+}
+
+.create-todo-container button {
+  width: 100%;
+  height: 40px;
+  background-color: #4caf50; /* Button background */
+  color: #ffffff; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.create-todo-container button:hover {
+  background-color: #3e8e41; /* Button hover background */
+}

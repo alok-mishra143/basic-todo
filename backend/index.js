@@ -1,8 +1,14 @@
 const express = require("express");
 const { CreateTodo, UpdateTodo } = require("./type");
 const app = express();
-app.use(express.json());
 const { Todo } = require("./db");
+const cors = require("cors");
+app.use(express.json());
+app.use(
+  cors({
+    origin: "http://localhost:5173",
+  })
+);
 
 app.post("/todos", async function (req, res) {
   try {
