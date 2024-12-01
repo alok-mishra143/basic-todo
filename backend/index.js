@@ -60,3 +60,5 @@ app.put("/complet", async function (req, res) {
     msg: "todo updated",
   });
 });
+
+app.listen(3000);
