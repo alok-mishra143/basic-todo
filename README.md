@@ -31,7 +31,8 @@ A sleek, powerful, and intuitive full-stack Todo application designed for effici
 - **MongoDB** & **Mongoose**  
 - **Zod** (Data validation)  
 - **dotenv** (Environment configuration)  
-- **CORS** (Cross-origin resource sharing)  
+- **CORS** (Cross-origin resource sharing)
+- **NodeMon** (to start the server )
 
 
 
@@ -45,7 +46,7 @@ A sleek, powerful, and intuitive full-stack Todo application designed for effici
 ### **Steps**  
 1. **Clone the repository**:  
    ```bash  
-   git clone https://github.com/yourusername/todo-application.git  
+   https://github.com/alok-mishra143/basic-todo.git
    cd todo-application  
    ```  
 
