@@ -47,7 +47,7 @@ app.put("/complet", async function (req, res) {
     return;
   }
 
-  await Todo.upadte(
+  await Todo.update(
     {
       _id: req.body.id,
     },
