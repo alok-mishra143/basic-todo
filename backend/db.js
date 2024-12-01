@@ -1,8 +1,10 @@
 const mongoose = require("mongoose");
 
+require("dotenv").config();
+
 const Schema = mongoose.Schema;
 
-const url = process.env.MONGO - URI || " ";
+const url = process.env.MONGO_URI || " ";
 
 mongoose.connect(url);
 

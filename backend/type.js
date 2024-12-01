@@ -1,4 +1,4 @@
-import { z } from "zod";
+const { z } = require("zod");
 
 const CreateTodo = z.object({
   title: z.string(),
