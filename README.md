@@ -5,6 +5,9 @@ I made this to refresh my MERN stack knowlege
 # 📝 Todo Application  
 A sleek, powerful, and intuitive full-stack Todo application designed for efficiency and style. Experience task management like never before with our modern dark-mode interface.  
 
+![image](https://github.com/user-attachments/assets/d06362c5-1579-4dba-8fa7-f00d4543a694)
+
+
 
 
 ## 🚀 Features  
